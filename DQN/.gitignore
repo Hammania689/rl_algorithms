@@ -1,0 +1,3 @@
+*.swp
+wandb/
+__pycache__/

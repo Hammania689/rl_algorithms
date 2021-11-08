@@ -1,0 +1,15 @@
+train.num_iter = 3_000_000                                # Number of Training Iterations
+train.num_trajs = 20                                      # Number of trajectories in batch 
+train.num_actor_epochs = 20                               # Number of actor optimization steps each iteration
+train.num_critic_epochs = 40                              # Number of critic optimization steps each iteration
+train.nhid = 64                                           # Number of neurons in each hidden layer
+train.bs = 20                                             # Batch size 
+train.surrogate_objective = 'clip'			  # Surrogate loss function to use
+
+
+Critic.lr = 1E-3                                          # Learning Rate for critic
+
+
+Pendulum.sparse_reward = True                             # Enable sparse rewards
+
+

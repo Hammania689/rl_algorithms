@@ -1,0 +1,16 @@
+# ignore image files
+*.gif
+*.png
+
+
+# swap files
+*.swap
+*.swp
+*.swo
+*.swn
+
+# wandb logs
+wandb
+
+# checkpoint files
+*.ckpt
